@@ -19,7 +19,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="carousel.css" rel="stylesheet">
+    <link href="/css/carousel.css" rel="stylesheet">
 </head>
 <body>
     <div id="app">
