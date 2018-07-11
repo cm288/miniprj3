@@ -14,9 +14,9 @@
                     <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
                     <div class="container">
                         <div class="carousel-caption text-left">
-                            <h1>Example headline.</h1>
-                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                            <h1>About this Assignment.</h1>
+                            <p>Mini Project 3 has tested all of the skills we've learned so far IS601. Below are some of the concepts that were tested with this assignment</p>
+
                         </div>
                     </div>
                 </div>
@@ -24,9 +24,9 @@
                     <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1>Another example headline.</h1>
-                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                            <h1>Mini Project 3</h1>
+                            <p>Click below for more details on the project and deliverables </p>
+                            <p><a class="btn btn-lg btn-primary" href="http://njit2.mrooms.net/course/view.php?id=22771#section-1" role="button">Learn more</a></p>
                         </div>
                     </div>
                 </div>
@@ -34,9 +34,9 @@
                     <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
                     <div class="container">
                         <div class="carousel-caption text-right">
-                            <h1>One more for good measure.</h1>
-                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                            <h1>Project Goals and Objectives.</h1>
+                            <p>The aim of this project was to help IS601 students become more familiarized with the concepts covered in the class lectures and also test their ability apply some of the concepts and skills learned.</p>
+
                         </div>
                     </div>
                 </div>
@@ -61,22 +61,22 @@
             <!-- Three columns of text below the carousel -->
             <div class="row">
                 <div class="col-lg-4">
-                    <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                    <h2>Heading</h2>
-                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                    <img src="{{ asset('images/laravel.png') }}" alt="Generic placeholder image" width="140" height="140">
+                    <h2>Laravel Framework</h2>
+                    <p>This project has solidified my understanding of the PHP Laravel framework and the blade template file structures.</p>
+                    <p><a class="btn btn-secondary" href="https://laravel.com/" role="button">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                    <h2>Heading</h2>
-                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                    <img src="{{ asset('images/source-code.png') }}" alt="Generic placeholder image" width="140" height="140">
+                    <h2>Unit Testing</h2>
+                    <p>Unit testing was a completely unfamiliar territory but after gaining some experience with phpunit and building out some simple tests, I feel more comfortable with php as a whole. </p>
+                    <p><a class="btn btn-secondary" href="https://phpunit.de/" role="button">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                    <h2>Heading</h2>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                    <img  src="{{ asset('images/database.png') }}" alt="Generic placeholder image" width="140" height="140">
+                    <h2>Database Seeding</h2>
+                    <p>Through this assignment, I also learned how to create a connection to a database using the Laravel framework and seed the database with test data using the $faker library.</p>
+                    <p><a class="btn btn-secondary" href="https://laravel.com/docs/5.6/seeding" role="button">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
             </div><!-- /.row -->
 
@@ -87,11 +87,11 @@
 
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <h2 class="featurette-heading">Heroku. <span class="text-muted">Deployment.</span></h2>
+                    <p class="lead"> Having working knowledge about the Heroku platform is a great skill to have and this assignment has helped me understand how the cloud service works and benefits that come from hosting your apps on this platform.</p>
                 </div>
                 <div class="col-md-5">
-                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                    <img class="featurette-image img-fluid mx-auto" src="{{ asset('images/heroku.png') }}" alt="Generic placeholder image">
                 </div>
             </div>
 
@@ -99,11 +99,11 @@
 
             <div class="row featurette">
                 <div class="col-md-7 order-md-2">
-                    <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <h2 class="featurette-heading">GitHub. <span class="text-muted">Version Control.</span></h2>
+                    <p class="lead">Version Control is a "must-know" in the world of application development and this project and helped sharpen my ability to share my code with through the GitHub platform.</p>
                 </div>
                 <div class="col-md-5 order-md-1">
-                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                    <img class="featurette-image img-fluid mx-auto" src="{{ asset('images/github.png') }}" alt="Generic placeholder image">
                 </div>
             </div>
 
@@ -111,11 +111,11 @@
 
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <h2 class="featurette-heading">PhpStorm. <span class="text-muted">IDE.</span></h2>
+                    <p class="lead">At this point in the class, I've become very fluent with the PhpStorm IDE and can easily navigate my way around it's vast feature set and supplemental resources for writing code and creating sites.</p>
                 </div>
                 <div class="col-md-5">
-                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                    <img class="featurette-image img-fluid mx-auto" src="{{ asset('images/phpstorm.png') }}" alt="Generic placeholder image">
                 </div>
             </div>
 
