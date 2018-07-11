@@ -20,7 +20,7 @@ class CarIntTest extends TestCase
         $car = new Car();
         $year = (int)$car->year;
 
-        //echo $year;
+        echo $year;
 
         $this->assertInternalType(IsType::TYPE_INT, $year);
     }
